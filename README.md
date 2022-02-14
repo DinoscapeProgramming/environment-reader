@@ -2,4 +2,4 @@
 A simple environment reader using fs
 
 ## Get started
-Sorry, I got hacked, don't worry :(
+First copy the file __environment-reader.js__ to your code.

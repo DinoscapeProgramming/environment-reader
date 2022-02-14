@@ -9,7 +9,13 @@ First copy the file __environment-reader.js__ to your code. Now you're ready to 
 ```js
 const env = require('./environment-reader.js');
 ```
+
 ### Get the whole content from a file
 ```js
 env.get('./text.txt')
+```
+
+### Get a specific line from a file
+```js
+env.get('./text.txt', 0)
 ```

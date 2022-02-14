@@ -2,4 +2,4 @@
 A simple environment reader using fs
 
 ## Get started
-BITCH
+Sorry, I got hacked, don't worry :(

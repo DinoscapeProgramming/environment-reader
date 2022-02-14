@@ -19,3 +19,11 @@ env.get('./text.txt')
 ```js
 env.get('./text.txt', 0)
 ```
+
+## Replit
+Yes, you can add environment variables to your file. Only add this to your file:
+```
+process.env.test
+```
+
+## 

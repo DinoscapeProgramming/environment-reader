@@ -7,8 +7,9 @@ First copy the file __environment-reader.js__ to your code. Now you're ready to 
 ## Introduction
 ### Require the package
 ```js
-cobst env = require('./environment-reader.js');
+const env = require('./environment-reader.js');
 ```
-### Get whole content in a file
+### Get the whole content from a file
 ```js
-
+env.get('./text.txt')
+```

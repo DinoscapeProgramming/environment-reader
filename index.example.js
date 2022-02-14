@@ -1,6 +1,6 @@
 const env = require('./environment-reader');
 const settings = {
-  file: "./text.txt"
+  file: "./text.example.txt"
 }
 
 console.log(env.get(settings.file))

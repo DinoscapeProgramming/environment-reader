@@ -26,4 +26,5 @@ Yes, you can add environment variables to your file. Only add this to your file:
 process.env.test
 ```
 
-## 
+## Note
+You also can use this with any other file beside text files.

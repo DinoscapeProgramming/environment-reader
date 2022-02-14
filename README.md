@@ -27,4 +27,4 @@ process.env.test
 ```
 
 ## Note
-You also can use this with any other file beside text files.
+You also can use this with any other file beside text files, but I think text files are the best solution for environment variables.

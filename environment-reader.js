@@ -10,11 +10,14 @@ function get(file, line) {
       return data;
     }
   } else {
-    if (data.startsWith("process.env")) {
-      return eval(data);
-    } else {
-      return data;
-    }
+    data = data.split('\n')
+    data.forEach(content => {
+      if (content.startsWith("process.env")) {
+        data[data.indexOf(content)] = eval(content)
+      }
+    })
+    data = data.join('\n')
+    return data;
   }
 }
 

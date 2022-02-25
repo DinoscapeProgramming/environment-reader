@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-function get(file, line) {
+const env = function (file, line) {
   let data = fs.readFileSync(file, 'utf8')
   if (line || line === 0) {
     data = data.split('\n')[line]
@@ -21,4 +21,4 @@ function get(file, line) {
   }
 }
 
-module.exports = { get }
+module.exports = env

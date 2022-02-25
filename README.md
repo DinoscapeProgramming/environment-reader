@@ -12,12 +12,12 @@ const env = require('./environment-reader.js');
 
 ### Get the whole content from a file
 ```js
-env.get('./text.txt')
+env('./text.txt')
 ```
 
 ### Get a specific line from a file
 ```js
-env.get('./text.txt', 0)
+env('./text.txt', 0)
 ```
 
 ## Replit
